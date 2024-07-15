@@ -1,0 +1,27 @@
+[0.029s] Invoking command in '/home/yusuf/custom_msg_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8
+[0.138s] [  3%] Built target more_interfaces__cpp
+[0.140s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.172s] [ 12%] Built target ament_cmake_python_copy_more_interfaces
+[0.201s] [ 21%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.202s] [ 30%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.204s] [ 39%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.206s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.207s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.212s] [ 66%] Built target more_interfaces__rosidl_typesupport_c
+[0.252s] [ 66%] Built target more_interfaces
+[0.255s] [ 69%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o[0m
+[0.285s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/yusuf/custom_msg_ws/src/more_interfaces/src/publish_address_book.cpp: No such file or directory
+[0.286s] compilation terminated.
+[0.288s] gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o] Error 1
+[0.288s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_address_book.dir/all] Error 2
+[0.288s] gmake[1]: *** Waiting for unfinished jobs....
+[0.293s] [ 72%] Built target more_interfaces__py
+[0.766s] running egg_info
+[0.767s] writing more_interfaces.egg-info/PKG-INFO
+[0.768s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.768s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.773s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.775s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.829s] [ 72%] Built target ament_cmake_python_build_more_interfaces_egg
+[0.832s] gmake: *** [Makefile:146: all] Error 2
+[0.837s] Invoked command in '/home/yusuf/custom_msg_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8

@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "FindAddressBook.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "AddressBook", but CMake did not find one.
+
+  Could not find a package configuration file provided by "AddressBook" with
+  any of the following names:
+
+    AddressBookConfig.cmake
+    addressbook-config.cmake
+
+  Add the installation prefix of "AddressBook" to CMAKE_PREFIX_PATH or set
+  "AddressBook_DIR" to a directory containing one of the above files.  If
+  "AddressBook" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+gmake: *** [Makefile:788: cmake_check_build_system] Error 1

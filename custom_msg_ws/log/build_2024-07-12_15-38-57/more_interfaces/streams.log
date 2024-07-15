@@ -1,0 +1,63 @@
+[0.027s] Invoking command in '/home/yusuf/custom_msg_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_usb_com_ws/install/usb_ros_com:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8
+[0.124s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c[0m
+[0.148s] [  3%] Built target more_interfaces__cpp
+[0.153s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.176s] [ 12%] Built target ament_cmake_python_copy_more_interfaces
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.192s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.200s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[0.213s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[0.232s] [ 21%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.235s] [ 30%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.236s] [ 39%] Built target more_interfaces__rosidl_typesupport_c
+[0.236s] [ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.241s] [ 57%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.245s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target publish_address_book[0m
+[0.290s] [ 66%] Built target more_interfaces
+[0.317s] [ 69%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/scripts/publish_address_book.cpp.o[0m
+[0.333s] [ 72%] Built target more_interfaces__py
+[0.356s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_py[0m
+[0.382s] [ 78%] Built target more_interfaces__rosidl_generator_py
+[0.407s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.414s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[0.414s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.442s] [ 84%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.454s] [ 90%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.456s] [ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.122s] running egg_info
+[1.123s] writing more_interfaces.egg-info/PKG-INFO
+[1.124s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[1.124s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[1.131s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.133s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[1.194s] [ 96%] Built target ament_cmake_python_build_more_interfaces_egg
+[5.466s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:[m[K In lambda function:
+[5.466s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:21:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kfirst_name[m[K’
+[5.467s]    21 |         message.[01;31m[Kfirst_name[m[K = "John";
+[5.467s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[5.467s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:22:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klast_name[m[K’
+[5.467s]    22 |         message.[01;31m[Klast_name[m[K = "Doe";
+[5.468s]       |                 [01;31m[K^~~~~~~~~[m[K
+[5.468s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:23:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kphone_number[m[K’
+[5.468s]    23 |         message.[01;31m[Kphone_number[m[K = "1234567890";
+[5.469s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[5.469s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:24:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kphone_type[m[K’
+[5.469s]    24 |         message.[01;31m[Kphone_type[m[K = message.PHONE_TYPE_MOBILE;
+[5.470s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[5.470s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:24:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[KPHONE_TYPE_MOBILE[m[K’
+[5.470s]    24 |         message.phone_type = message.[01;31m[KPHONE_TYPE_MOBILE[m[K;
+[5.470s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[5.471s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:26:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kfirst_name[m[K’
+[5.471s]    26 | t << "Publishing Contact\nFirst:" << message.[01;31m[Kfirst_name[m[K <<
+[5.471s]       |                                              [01;31m[K^~~~~~~~~~[m[K
+[5.471s] 
+[5.472s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:27:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klast_name[m[K’
+[5.472s]    27 |           "  Last:" << message.[01;31m[Klast_name[m[K << std::endl;
+[5.472s]       |                                [01;31m[K^~~~~~~~~[m[K
+[7.552s] gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/scripts/publish_address_book.cpp.o] Error 1
+[7.552s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_address_book.dir/all] Error 2
+[7.553s] gmake: *** [Makefile:146: all] Error 2
+[7.558s] Invoked command in '/home/yusuf/custom_msg_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_usb_com_ws/install/usb_ros_com:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8

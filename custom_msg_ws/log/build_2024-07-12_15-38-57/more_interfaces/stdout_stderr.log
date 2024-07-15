@@ -1,0 +1,61 @@
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c[0m
+[  3%] Built target more_interfaces__cpp
+[ 12%] Built target more_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_more_interfaces
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[ 21%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 30%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[ 39%] Built target more_interfaces__rosidl_typesupport_c
+[ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target publish_address_book[0m
+[ 66%] Built target more_interfaces
+[ 69%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/scripts/publish_address_book.cpp.o[0m
+[ 72%] Built target more_interfaces__py
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_py[0m
+[ 78%] Built target more_interfaces__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[ 84%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing more_interfaces.egg-info/PKG-INFO
+writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+writing top-level names to more_interfaces.egg-info/top_level.txt
+reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_more_interfaces_egg
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:[m[K In lambda function:
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:21:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kfirst_name[m[K’
+   21 |         message.[01;31m[Kfirst_name[m[K = "John";
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:22:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klast_name[m[K’
+   22 |         message.[01;31m[Klast_name[m[K = "Doe";
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:23:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kphone_number[m[K’
+   23 |         message.[01;31m[Kphone_number[m[K = "1234567890";
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:24:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kphone_type[m[K’
+   24 |         message.[01;31m[Kphone_type[m[K = message.PHONE_TYPE_MOBILE;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:24:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[KPHONE_TYPE_MOBILE[m[K’
+   24 |         message.phone_type = message.[01;31m[KPHONE_TYPE_MOBILE[m[K;
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:26:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kfirst_name[m[K’
+   26 | t << "Publishing Contact\nFirst:" << message.[01;31m[Kfirst_name[m[K <<
+      |                                              [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:27:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klast_name[m[K’
+   27 |           "  Last:" << message.[01;31m[Klast_name[m[K << std::endl;
+      |                                [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/scripts/publish_address_book.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_address_book.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

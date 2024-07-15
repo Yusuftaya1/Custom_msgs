@@ -1,0 +1,26 @@
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:[m[K In lambda function:
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:21:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kfirst_name[m[K’
+   21 |         message.[01;31m[Kfirst_name[m[K = "John";
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:22:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klast_name[m[K’
+   22 |         message.[01;31m[Klast_name[m[K = "Doe";
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:23:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kphone_number[m[K’
+   23 |         message.[01;31m[Kphone_number[m[K = "1234567890";
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:24:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kphone_type[m[K’
+   24 |         message.[01;31m[Kphone_type[m[K = message.PHONE_TYPE_MOBILE;
+      |                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:24:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[KPHONE_TYPE_MOBILE[m[K’
+   24 |         message.phone_type = message.[01;31m[KPHONE_TYPE_MOBILE[m[K;
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:26:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kfirst_name[m[K’
+   26 | t << "Publishing Contact\nFirst:" << message.[01;31m[Kfirst_name[m[K <<
+      |                                              [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:27:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klast_name[m[K’
+   27 |           "  Last:" << message.[01;31m[Klast_name[m[K << std::endl;
+      |                                [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/scripts/publish_address_book.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_address_book.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

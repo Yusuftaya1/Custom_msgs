@@ -1,0 +1,114 @@
+[0.032s] Invoking command in '/home/yusuf/custom_msg_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_usb_com_ws/install/usb_ros_com:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8
+[0.138s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.478s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.494s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.667s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.859s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.865s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.968s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.377s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[2.079s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.595s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.238s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.292s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.292s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.293s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.333s] -- Configuring done
+[3.412s] -- Generating done
+[3.419s] -- Build files have been written to: /home/yusuf/custom_msg_ws/build/more_interfaces
+[3.481s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.498s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.535s] [  6%] Built target ament_cmake_python_copy_more_interfaces
+[4.178s] [  6%] Built target more_interfaces__cpp
+[4.229s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.232s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.233s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.233s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c[0m
+[4.267s] [ 18%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o[0m
+[4.469s] running egg_info
+[4.472s] writing more_interfaces.egg-info/PKG-INFO
+[4.474s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[4.474s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[4.486s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[4.489s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[4.526s] [ 21%] [32m[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so[0m
+[4.567s] [ 21%] Built target ament_cmake_python_build_more_interfaces_egg
+[4.647s] [ 21%] Built target more_interfaces__rosidl_generator_c
+[4.677s] [ 24%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.678s] [ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.681s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.173s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_cpp[0m
+[5.214s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp[0m
+[5.231s] [ 33%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[5.284s] [ 36%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o[0m
+[5.350s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[5.438s] [ 39%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o[0m
+[5.855s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c[0m
+[5.858s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c[0m
+[5.908s] [ 42%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o[0m
+[5.937s] [ 45%] [32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o[0m
+[6.065s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c[0m
+[6.141s] [ 48%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o[0m
+[6.252s] [ 51%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so[0m
+[6.369s] [ 54%] [32m[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.485s] [ 54%] Built target more_interfaces__rosidl_typesupport_c
+[6.521s] [ 54%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[6.969s] [ 57%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so[0m
+[7.072s] [ 57%] Built target more_interfaces__rosidl_typesupport_cpp
+[7.102s] [35m[1mConsolidate compiler generated dependencies of target publish_address_book[0m
+[7.150s] [ 60%] [32mBuilding CXX object CMakeFiles/publish_address_book.dir/scripts/publish_address_book.cpp.o[0m
+[7.195s] [ 63%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.335s] [ 63%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[7.487s] [ 66%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[7.732s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[7.801s] [ 69%] [32m[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.986s] [ 69%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[8.030s] [ 69%] Built target more_interfaces
+[8.073s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.876s] [ 72%] Built target more_interfaces__py
+[8.899s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_py[0m
+[8.926s] [ 75%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o[0m
+[9.201s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/libmore_interfaces__rosidl_generator_py.so[0m
+[9.293s] [ 78%] Built target more_interfaces__rosidl_generator_py
+[9.319s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c__pyext[0m
+[9.325s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.327s] [35m[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[9.363s] [ 81%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.367s] [ 84%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.372s] [ 87%] [32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.732s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.745s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.785s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.839s] [ 96%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.855s] [ 96%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[9.893s] [ 96%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[12.926s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:[m[K In lambda function:
+[12.926s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:21:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kfirst_name[m[K’
+[12.927s]    21 |         message.[01;31m[Kfirst_name[m[K = "John";
+[12.927s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[12.927s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:22:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klast_name[m[K’
+[12.927s]    22 |         message.[01;31m[Klast_name[m[K = "Doe";
+[12.927s]       |                 [01;31m[K^~~~~~~~~[m[K
+[12.927s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:23:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kphone_number[m[K’
+[12.928s]    23 |         message.[01;31m[Kphone_number[m[K = "1234567890";
+[12.928s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[12.928s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:24:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kphone_type[m[K’
+[12.928s]    24 |         message.[01;31m[Kphone_type[m[K = message.PHONE_TYPE_MOBILE;
+[12.928s]       |                 [01;31m[K^~~~~~~~~~[m[K
+[12.928s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:24:38:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[KPHONE_TYPE_MOBILE[m[K’
+[12.929s]    24 |         message.phone_type = message.[01;31m[KPHONE_TYPE_MOBILE[m[K;
+[12.929s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[12.929s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:26:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kfirst_name[m[K’
+[12.929s]    26 | t << "Publishing Contact\nFirst:" << message.[01;31m[Kfirst_name[m[K <<
+[12.929s]       |                                              [01;31m[K^~~~~~~~~~[m[K
+[12.929s] 
+[12.929s] [01m[K/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address_book.cpp:27:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct more_interfaces::msg::AddressBook_<std::allocator<void> >[m[K’ has no member named ‘[01m[Klast_name[m[K’
+[12.930s]    27 |           "  Last:" << message.[01;31m[Klast_name[m[K << std::endl;
+[12.930s]       |                                [01;31m[K^~~~~~~~~[m[K
+[15.004s] gmake[2]: *** [CMakeFiles/publish_address_book.dir/build.make:76: CMakeFiles/publish_address_book.dir/scripts/publish_address_book.cpp.o] Error 1
+[15.004s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/publish_address_book.dir/all] Error 2
+[15.004s] gmake: *** [Makefile:146: all] Error 2
+[15.008s] Invoked command in '/home/yusuf/custom_msg_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/ros2_usb_com_ws/install/usb_ros_com:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8

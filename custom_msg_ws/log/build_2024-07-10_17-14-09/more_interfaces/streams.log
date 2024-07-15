@@ -1,0 +1,42 @@
+[0.022s] Invoking command in '/home/yusuf/custom_msg_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake /home/yusuf/custom_msg_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/yusuf/custom_msg_ws/install/more_interfaces
+[0.144s] -- The C compiler identification is GNU 12.3.0
+[0.303s] -- The CXX compiler identification is GNU 12.3.0
+[0.318s] -- Detecting C compiler ABI info
+[0.456s] -- Detecting C compiler ABI info - done
+[0.472s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.472s] -- Detecting C compile features
+[0.473s] -- Detecting C compile features - done
+[0.479s] -- Detecting CXX compiler ABI info
+[0.639s] -- Detecting CXX compiler ABI info - done
+[0.656s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.657s] -- Detecting CXX compile features
+[0.658s] -- Detecting CXX compile features - done
+[0.675s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.015s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.226s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.408s] -- Added test 'lint_cmake' to check CMake code style
+[1.411s] -- Added test 'xmllint' to check XML markup files
+[1.413s] -- Configuring done
+[1.418s] -- Generating done
+[1.420s] -- Build files have been written to: /home/yusuf/custom_msg_ws/build/more_interfaces
+[1.428s] Invoked command in '/home/yusuf/custom_msg_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake /home/yusuf/custom_msg_ws/src/more_interfaces -DCMAKE_INSTALL_PREFIX=/home/yusuf/custom_msg_ws/install/more_interfaces
+[1.433s] Invoking command in '/home/yusuf/custom_msg_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8
+[1.504s] Invoked command in '/home/yusuf/custom_msg_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8
+[1.567s] Invoking command in '/home/yusuf/custom_msg_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/custom_msg_ws/build/more_interfaces
+[1.580s] -- Install configuration: ""
+[1.581s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[1.581s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[1.581s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[1.582s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[1.582s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[1.583s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[1.583s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[1.583s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[1.584s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[1.584s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[1.584s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[1.584s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[1.584s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[1.585s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[1.585s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/package.xml
+[1.588s] Invoked command in '/home/yusuf/custom_msg_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/custom_msg_ws/build/more_interfaces

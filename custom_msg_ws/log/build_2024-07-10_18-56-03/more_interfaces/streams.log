@@ -1,0 +1,32 @@
+[0.030s] Invoking command in '/home/yusuf/custom_msg_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8
+[0.081s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.388s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.400s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.474s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.534s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.687s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.691s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.757s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.107s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[1.133s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[1.134s]   By not providing "FindAddressBook.cmake" in CMAKE_MODULE_PATH this project
+[1.134s]   has asked CMake to find a package configuration file provided by
+[1.134s]   "AddressBook", but CMake did not find one.
+[1.134s] 
+[1.134s]   Could not find a package configuration file provided by "AddressBook" with
+[1.135s]   any of the following names:
+[1.135s] 
+[1.135s]     AddressBookConfig.cmake
+[1.135s]     addressbook-config.cmake
+[1.135s] 
+[1.135s]   Add the installation prefix of "AddressBook" to CMAKE_PREFIX_PATH or set
+[1.135s]   "AddressBook_DIR" to a directory containing one of the above files.  If
+[1.136s]   "AddressBook" provides a separate development package or SDK, be sure it
+[1.136s]   has been installed.
+[1.136s] 
+[1.136s] [0m
+[1.136s] -- Configuring incomplete, errors occurred!
+[1.136s] See also "/home/yusuf/custom_msg_ws/build/more_interfaces/CMakeFiles/CMakeOutput.log".
+[1.147s] gmake: *** [Makefile:788: cmake_check_build_system] Error 1
+[1.151s] Invoked command in '/home/yusuf/custom_msg_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:387 (file):
+  file INSTALL cannot find
+  "/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address.py":
+  No such file or directory.
+
+[0m

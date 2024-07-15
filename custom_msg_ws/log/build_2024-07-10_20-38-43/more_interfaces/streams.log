@@ -1,0 +1,111 @@
+[0.031s] Invoking command in '/home/yusuf/custom_msg_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8
+[0.165s] [  3%] Built target more_interfaces__cpp
+[0.166s] [ 12%] Built target more_interfaces__rosidl_generator_c
+[0.192s] [ 12%] Built target ament_cmake_python_copy_more_interfaces
+[0.221s] [ 30%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.222s] [ 30%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.229s] [ 39%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.244s] [ 48%] Built target more_interfaces__rosidl_typesupport_c
+[0.247s] [ 57%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.254s] [ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.286s] [ 72%] Built target publish_address_book
+[0.294s] [ 72%] Built target more_interfaces
+[0.336s] [ 75%] Built target more_interfaces__py
+[0.380s] [ 81%] Built target more_interfaces__rosidl_generator_py
+[0.425s] [ 93%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.425s] [ 93%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.425s] [100%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.798s] running egg_info
+[0.800s] writing more_interfaces.egg-info/PKG-INFO
+[0.800s] writing dependency_links to more_interfaces.egg-info/dependency_links.txt
+[0.801s] writing top-level names to more_interfaces.egg-info/top_level.txt
+[0.807s] reading manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.809s] writing manifest file 'more_interfaces.egg-info/SOURCES.txt'
+[0.868s] [100%] Built target ament_cmake_python_build_more_interfaces_egg
+[0.890s] Invoked command in '/home/yusuf/custom_msg_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --build /home/yusuf/custom_msg_ws/build/more_interfaces -- -j8 -l8
+[1.043s] Invoking command in '/home/yusuf/custom_msg_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/custom_msg_ws/build/more_interfaces
+[1.060s] -- Install configuration: ""
+[1.062s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[1.062s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.062s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.063s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.063s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h
+[1.063s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h
+[1.063s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c
+[1.063s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h
+[1.063s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.063s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h
+[1.064s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[1.064s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[1.065s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[1.065s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.065s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.066s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.066s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.066s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h
+[1.067s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.067s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.067s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.067s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.068s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.068s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c
+[1.068s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h
+[1.068s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[1.069s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[1.069s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.069s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.070s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.070s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp
+[1.070s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp
+[1.070s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp
+[1.070s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp
+[1.070s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.071s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.071s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.071s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps
+[1.071s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp
+[1.071s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.071s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.072s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces
+[1.072s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg
+[1.072s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail
+[1.072s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp
+[1.072s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp
+[1.073s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.073s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[1.073s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[1.073s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[1.074s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info
+[1.074s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.074s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.074s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.074s] -- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.074s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces
+[1.075s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.075s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so
+[1.075s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.075s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.075s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.075s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c
+[1.075s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.076s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg
+[1.076s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c
+[1.076s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py
+[1.076s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py
+[1.076s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py
+[1.144s] Listing '/home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...
+[1.144s] Listing '/home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...
+[1.154s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.155s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.156s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.157s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so
+[1.157s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl
+[1.157s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg
+[1.158s] -- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
+[1.158s] [31mCMake Error at cmake_install.cmake:387 (file):
+[1.159s]   file INSTALL cannot find
+[1.159s]   "/home/yusuf/custom_msg_ws/src/more_interfaces/scripts/publish_address.py":
+[1.159s]   No such file or directory.
+[1.159s] 
+[1.159s] [0m
+[1.162s] Invoked command in '/home/yusuf/custom_msg_ws/build/more_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble /usr/bin/cmake --install /home/yusuf/custom_msg_ws/build/more_interfaces
