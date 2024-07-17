@@ -16,6 +16,7 @@ class CmdVelPublisher(Node):
 
     def timer_callback(self):
         address_book_msg = AddressBook()
+<<<<<<< HEAD
         address_book_msg.sag_teker_hiz = 222
         address_book_msg.sol_teker_hiz = 123
         address_book_msg.linear_actuator = True
@@ -25,6 +26,18 @@ class CmdVelPublisher(Node):
         self.get_logger().info(f'Received sol_teker_hiz: {address_book_msg.sol_teker_hiz}')
         self.get_logger().info(f'Received linear_aktuator: {address_book_msg.linear_actuator}')
 
+=======
+        address_book_msg.sag_teker_hiz = 222.0
+        address_book_msg.sol_teker_hiz = 123.0
+        address_book_msg.linear_actuator = True
+
+        self.sag_teker_publisher.publish(address_book_msg)
+        self.get_logger().info(f'Publishing sag_teker_hiz: speed={address_book_msg.sag_teker_hiz}')
+        self.sol_teker_publisher.publish(address_book_msg)
+        self.get_logger().info(f'Publishing sol_teker_hiz: speed={address_book_msg.sol_teker_hiz}')
+        self.linear_actuator_publisher.publish(address_book_msg)
+        self.get_logger().info(f'Publishing actuator: {address_book_msg.linear_actuator}')
+>>>>>>> 3b5e5a2d2844e5fbff96ed817017c88bf2a6dccf
 
 def main(args=None):
     rclpy.init(args=args)
