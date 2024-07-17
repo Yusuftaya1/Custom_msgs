@@ -3,25 +3,26 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Int16, Bool
+from more_interfaces.msg import AddressBook
 
 class CmdVelSubscriber(Node):
     def __init__(self):
         super().__init__('cmd_vel_subscriber')
 
         self.sag_teker_subscription = self.create_subscription(
-            Int16,
+            AddressBook,
             'AGV/motor/sag_teker_hiz',
             self.sag_teker_callback,
             10)
         
         self.sol_teker_subscription = self.create_subscription(
-            Int16,
+            AddressBook,
             'AGV/motor/sol_teker_hiz',
             self.sol_teker_callback,
             10)
         
         self.linear_actuator_subscription = self.create_subscription(
-            Bool,
+            AddressBook,
             'AGV/motor/linear_actuator',
             self.linear_actuator_callback,
             10)

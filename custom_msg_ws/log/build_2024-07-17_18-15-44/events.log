@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.000483] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.001604] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.023455] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.025180] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.027101] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yusuf/custom_msg_ws/build/more_interfaces', '--', '-j8', '-l8'], 'cwd': '/home/yusuf/custom_msg_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yusuf'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yusuf/custom_msg_ws/install/more_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yusuf'), ('OLDPWD', '/home/yusuf'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1342'), ('SYSTEMD_EXEC_PID', '1515'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4464'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yusuf/custom_msg_ws/install:/home/yusuf/tcp/install:/home/yusuf/turtlebot3_ws/install:/home/yusuf/ros2_usb_com_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yusuf'), ('JOURNAL_STREAM', '8:31034'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yusuf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/yusuf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/YUBUNTU:@/tmp/.ICE-unix/1471,unix/YUBUNTU:/tmp/.ICE-unix/1471'), ('INVOCATION_ID', 'b633272901ce4d6da966638d0cd13214'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BSX1Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yusuf/custom_msg_ws/install/more_interfaces:/home/yusuf/ros2_usb_com_ws/install/usb_ros_com:/home/yusuf/tcp/install/tcp_package:/home/yusuf/turtlebot3_ws/install/turtlebot3_simulations:/home/yusuf/turtlebot3_ws/install/turtlebot3_gazebo:/home/yusuf/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:53f3291b-da92-4efe-8a1f-9e979ca45237'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yusuf/custom_msg_ws/build/more_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/yusuf/ros2_usb_com_ws/install/usb_ros_com/lib/python3.10/site-packages:/home/yusuf/tcp/install/tcp_package/lib/python3.10/site-packages:/home/yusuf/tcp/src/tcp_package/tcp_package:/home/yusuf/mission_ws/src/mission_pkg/mission_pkg:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yusuf/custom_msg_ws/install/more_interfaces:/home/yusuf/turtlebot3_ws/install/turtlebot3_simulations:/home/yusuf/turtlebot3_ws/install/turtlebot3_gazebo:/home/yusuf/turtlebot3_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_usb_com_ws/install/usb_ros_com:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble')]), 'shell': False}
+[0.090699] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099370] (-) TimerEvent: {}
+[0.199753] (-) TimerEvent: {}
+[0.300291] (-) TimerEvent: {}
+[0.400704] (-) TimerEvent: {}
+[0.410311] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.417147] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.424709] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.500863] (-) TimerEvent: {}
+[0.507419] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.574504] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.601080] (-) TimerEvent: {}
+[0.701621] (-) TimerEvent: {}
+[0.742287] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.746905] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.801770] (-) TimerEvent: {}
+[0.823005] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.902001] (-) TimerEvent: {}
+[1.002463] (-) TimerEvent: {}
+[1.102954] (-) TimerEvent: {}
+[1.193344] (more_interfaces) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.203132] (-) TimerEvent: {}
+[1.303527] (-) TimerEvent: {}
+[1.404075] (-) TimerEvent: {}
+[1.504515] (-) TimerEvent: {}
+[1.604988] (-) TimerEvent: {}
+[1.705475] (-) TimerEvent: {}
+[1.793189] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.805597] (-) TimerEvent: {}
+[1.906059] (-) TimerEvent: {}
+[2.006525] (-) TimerEvent: {}
+[2.106990] (-) TimerEvent: {}
+[2.207440] (-) TimerEvent: {}
+[2.238143] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.307627] (-) TimerEvent: {}
+[2.408162] (-) TimerEvent: {}
+[2.508622] (-) TimerEvent: {}
+[2.609090] (-) TimerEvent: {}
+[2.709598] (-) TimerEvent: {}
+[2.810070] (-) TimerEvent: {}
+[2.833944] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.901452] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.910194] (-) TimerEvent: {}
+[2.957465] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.957815] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.958028] (more_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.002564] (more_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.010305] (-) TimerEvent: {}
+[3.074563] (more_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.082005] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/yusuf/custom_msg_ws/build/more_interfaces\n'}
+[3.110486] (-) TimerEvent: {}
+[3.134080] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_c\x1b[0m\n'}
+[3.157038] (more_interfaces) StdoutLine: {'line': b'[  3%] Built target more_interfaces__cpp\n'}
+[3.164241] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target more_interfaces__rosidl_generator_c\n'}
+[3.187821] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[3.188323] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.188814] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.194501] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.197669] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.206784] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.210652] (-) TimerEvent: {}
+[3.215963] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.237381] (more_interfaces) StdoutLine: {'line': b'[ 30%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.237877] (more_interfaces) StdoutLine: {'line': b'[ 30%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[3.240585] (more_interfaces) StdoutLine: {'line': b'[ 39%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.241426] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[3.248323] (more_interfaces) StdoutLine: {'line': b'[ 57%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.254799] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.266423] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publish_address_book\x1b[0m\n'}
+[3.298161] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces\n'}
+[3.304559] (more_interfaces) StdoutLine: {'line': b'[ 72%] Built target publish_address_book\n'}
+[3.310794] (-) TimerEvent: {}
+[3.341578] (more_interfaces) StdoutLine: {'line': b'[ 75%] Built target more_interfaces__py\n'}
+[3.365195] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_generator_py\x1b[0m\n'}
+[3.393616] (more_interfaces) StdoutLine: {'line': b'[ 81%] Built target more_interfaces__rosidl_generator_py\n'}
+[3.410961] (-) TimerEvent: {}
+[3.417585] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.423111] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.423976] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.455845] (more_interfaces) StdoutLine: {'line': b'[ 87%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[3.460378] (more_interfaces) StdoutLine: {'line': b'[ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.467737] (more_interfaces) StdoutLine: {'line': b'[100%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[3.511113] (-) TimerEvent: {}
+[3.611651] (-) TimerEvent: {}
+[3.712118] (-) TimerEvent: {}
+[3.812586] (-) TimerEvent: {}
+[3.861665] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.863334] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[3.863778] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[3.864180] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[3.869003] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[3.870325] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[3.912780] (-) TimerEvent: {}
+[3.926136] (more_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[3.952328] (more_interfaces) CommandEnded: {'returncode': 0}
+[4.012881] (-) TimerEvent: {}
+[4.088414] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[4.105462] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yusuf/custom_msg_ws/build/more_interfaces'], 'cwd': '/home/yusuf/custom_msg_ws/build/more_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yusuf'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yusuf/custom_msg_ws/install/more_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yusuf'), ('OLDPWD', '/home/yusuf'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1342'), ('SYSTEMD_EXEC_PID', '1515'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4464'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yusuf/custom_msg_ws/install:/home/yusuf/tcp/install:/home/yusuf/turtlebot3_ws/install:/home/yusuf/ros2_usb_com_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yusuf'), ('JOURNAL_STREAM', '8:31034'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yusuf'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/yusuf/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/YUBUNTU:@/tmp/.ICE-unix/1471,unix/YUBUNTU:/tmp/.ICE-unix/1471'), ('INVOCATION_ID', 'b633272901ce4d6da966638d0cd13214'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BSX1Q2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yusuf/custom_msg_ws/install/more_interfaces:/home/yusuf/ros2_usb_com_ws/install/usb_ros_com:/home/yusuf/tcp/install/tcp_package:/home/yusuf/turtlebot3_ws/install/turtlebot3_simulations:/home/yusuf/turtlebot3_ws/install/turtlebot3_gazebo:/home/yusuf/turtlebot3_ws/install/turtlebot3_fake_node:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:53f3291b-da92-4efe-8a1f-9e979ca45237'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yusuf/custom_msg_ws/build/more_interfaces'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/home/yusuf/ros2_usb_com_ws/install/usb_ros_com/lib/python3.10/site-packages:/home/yusuf/tcp/install/tcp_package/lib/python3.10/site-packages:/home/yusuf/tcp/src/tcp_package/tcp_package:/home/yusuf/mission_ws/src/mission_pkg/mission_pkg:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yusuf/custom_msg_ws/install/more_interfaces:/home/yusuf/turtlebot3_ws/install/turtlebot3_simulations:/home/yusuf/turtlebot3_ws/install/turtlebot3_gazebo:/home/yusuf/turtlebot3_ws/install/turtlebot3_fake_node:/home/yusuf/ros2_usb_com_ws/install/usb_ros_com:/home/yusuf/tcp/install/tcp_package:/opt/ros/humble')]), 'shell': False}
+[4.113052] (-) TimerEvent: {}
+[4.123146] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.124005] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[4.124352] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[4.124602] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[4.124875] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[4.125075] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h\n'}
+[4.125228] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[4.125373] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c\n'}
+[4.125517] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h\n'}
+[4.125660] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.125803] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h\n'}
+[4.126083] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[4.126253] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[4.126397] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[4.126541] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[4.126806] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[4.126963] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.127105] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[4.127246] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[4.127382] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.127656] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[4.127799] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[4.127936] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.128219] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[4.128365] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[4.128506] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[4.128649] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.128790] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[4.128927] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[4.129065] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[4.129202] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[4.129339] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[4.129557] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[4.129930] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[4.130122] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp\n'}
+[4.130276] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[4.130419] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[4.130560] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[4.130703] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps\n'}
+[4.130843] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.130985] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.131129] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.131270] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[4.131410] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[4.131552] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[4.131808] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[4.131954] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.132105] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.132244] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.132384] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[4.132581] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[4.132734] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info\n'}
+[4.132977] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.133143] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.133283] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.133502] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.133775] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces\n'}
+[4.133953] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.134233] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/libmore_interfaces__rosidl_generator_py.so\n'}
+[4.134372] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.134506] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.134639] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.134797] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.134931] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.135068] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg\n'}
+[4.135214] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book_s.c\n'}
+[4.135370] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/_address_book.py\n'}
+[4.135495] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg/__init__.py\n'}
+[4.135617] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py\n'}
+[4.213210] (-) TimerEvent: {}
+[4.223474] (more_interfaces) StdoutLine: {'line': b"Listing '/home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces'...\n"}
+[4.223928] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/__init__.py'...\n"}
+[4.224250] (more_interfaces) StdoutLine: {'line': b"Listing '/home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/msg'...\n"}
+[4.234397] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.235244] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.236359] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/local/lib/python3.10/dist-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.237098] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so\n'}
+[4.237466] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[4.237700] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[4.238150] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[4.238801] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/more_interfaces/publish_address.py\n'}
+[4.239055] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/more_interfaces/subtry.py\n'}
+[4.239633] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/lib/more_interfaces/subtry_2.py\n'}
+[4.240027] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[4.240399] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[4.240588] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[4.240765] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.241094] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[4.241324] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[4.241687] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[4.242125] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[4.242355] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[4.242511] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[4.242742] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[4.243290] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[4.243618] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.243882] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.244163] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.244485] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.244807] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.245149] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.245394] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.245555] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.245726] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.245968] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.246193] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.246396] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.246579] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.246824] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.246996] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.247208] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.247492] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.247730] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.247972] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.248213] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.248461] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.248610] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.248758] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.248901] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.249058] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[4.249253] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[4.249408] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[4.254441] (more_interfaces) CommandEnded: {'returncode': 0}
+[4.313351] (-) TimerEvent: {}
+[4.413929] (-) TimerEvent: {}
+[4.448465] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[4.450178] (-) EventReactorShutdown: {}

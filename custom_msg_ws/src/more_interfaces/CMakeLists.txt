@@ -37,11 +37,16 @@ install(PROGRAMS
   scripts/publish_address.py
   DESTINATION lib/${PROJECT_NAME}
 )
+
 install(PROGRAMS
   scripts/subtry.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
+install(PROGRAMS
+  scripts/subtry_2.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 ament_export_dependencies(rosidl_default_runtime)
 
 ament_package()

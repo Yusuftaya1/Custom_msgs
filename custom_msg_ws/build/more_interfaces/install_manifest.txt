@@ -53,6 +53,7 @@
 /home/yusuf/custom_msg_ws/install/more_interfaces/lib/more_interfaces/publish_address_book
 /home/yusuf/custom_msg_ws/install/more_interfaces/lib/more_interfaces/publish_address.py
 /home/yusuf/custom_msg_ws/install/more_interfaces/lib/more_interfaces/subtry.py
+/home/yusuf/custom_msg_ws/install/more_interfaces/lib/more_interfaces/subtry_2.py
 /home/yusuf/custom_msg_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
 /home/yusuf/custom_msg_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
 /home/yusuf/custom_msg_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
