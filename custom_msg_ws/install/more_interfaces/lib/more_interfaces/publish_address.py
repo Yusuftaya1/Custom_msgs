@@ -2,15 +2,12 @@
 
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Twist
 from more_interfaces.msg import AddressBook
 
 class CmdVelPublisher(Node):
     def __init__(self):
         super().__init__('custom_publisher')
-        self.sag_teker_publisher = self.create_publisher(AddressBook, 'AGV/motor/sag_teker_hiz', 10)
-        self.sol_teker_publisher = self.create_publisher(AddressBook, 'AGV/motor/sol_teker_hiz', 10)
-        self.linear_actuator_publisher = self.create_publisher(AddressBook, 'AGV/motor/linear_actuator', 10)
+        self.motor_speed_publisher = self.create_publisher(AddressBook, 'AGV/motor_speeds', 10)
         timer_period = 0.5
         self.timer = self.create_timer(timer_period, self.timer_callback)
 
@@ -20,7 +17,7 @@ class CmdVelPublisher(Node):
         address_book_msg.sol_teker_hiz = 123
         address_book_msg.linear_actuator = True
 
-        self.sag_teker_publisher.publish(address_book_msg)
+        self.motor_speed_publisher.publish(address_book_msg)
         self.get_logger().info(f'Received sag_teker_hiz: {address_book_msg.sag_teker_hiz}')
         self.get_logger().info(f'Received sol_teker_hiz: {address_book_msg.sol_teker_hiz}')
         self.get_logger().info(f'Received linear_aktuator: {address_book_msg.linear_actuator}')

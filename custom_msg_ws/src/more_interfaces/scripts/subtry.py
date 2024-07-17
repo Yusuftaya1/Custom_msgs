@@ -2,45 +2,28 @@
 
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Int16, Bool
 from more_interfaces.msg import AddressBook
 
-class CmdVelSubscriber(Node):
+class MotorSubscriber(Node):
     def __init__(self):
-        super().__init__('cmd_vel_subscriber')
+        super().__init__('_subscriber')
 
         self.sag_teker_subscription = self.create_subscription(
             AddressBook,
-            'AGV/motor/sag_teker_hiz',
-            self.sag_teker_callback,
-            10)
-        
-        self.sol_teker_subscription = self.create_subscription(
-            AddressBook,
-            'AGV/motor/sol_teker_hiz',
-            self.sol_teker_callback,
-            10)
-        
-        self.linear_actuator_subscription = self.create_subscription(
-            AddressBook,
-            'AGV/motor/linear_actuator',
-            self.linear_actuator_callback,
+            'AGV/motor_speeds',
+            self.motor_callback,
             10)
 
-    def sag_teker_callback(self, msg):
+    def motor_callback(self, msg):
         self.get_logger().info(f'Received sag_teker_hiz: {msg.sag_teker_hiz}')
-
-    def sol_teker_callback(self, msg):
-        self.get_logger().info(f'Received sol_teker_hiz: {msg.data}')
-
-    def linear_actuator_callback(self, msg):
-        self.get_logger().info(f'Received linear_actuator: {msg.data}')
+        self.get_logger().info(f'Received sol_teker_hiz: {msg.sol_teker_hiz}')
+        self.get_logger().info(f'Received linear_actuator: {msg.linear_actuator}')
 
 def main(args=None):
     rclpy.init(args=args)
-    cmd_vel_subscriber = CmdVelSubscriber()
-    rclpy.spin(cmd_vel_subscriber)
-    cmd_vel_subscriber.destroy_node()
+    Motor_subscriber = MotorSubscriber()
+    rclpy.spin(Motor_subscriber)
+    Motor_subscriber.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
