@@ -24,21 +24,16 @@ class CmdVelPublisher(Node):
         self.get_logger().info(f'Publishing Twist: linear.x={twist_msg.linear.x}, angular.z={twist_msg.angular.z}')
 
         address_book_msg = AddressBook()
-
-        sag_msg = address_book_msg.sag_teker_hiz
-        sag_msg = 222.0
-        sol_msg = address_book_msg.sol_teker_hiz
-        sol_msg = 123.0
-        aktuator = address_book_msg.linear_actuator
-        aktuator = True
+        address_book_msg.sag_teker_hiz = 222.0
+        address_book_msg.sol_teker_hiz = 123.0
+        address_book_msg.linear_actuator = True
 
         self.sag_teker_publisher.publish(address_book_msg)
-        self.get_logger().info(f'Publishing sag_teker_hiz: speed={sag_msg}')
+        self.get_logger().info(f'Publishing sag_teker_hiz: speed={address_book_msg.sag_teker_hiz}')
         self.sol_teker_publisher.publish(address_book_msg)
-        self.get_logger().info(f'Publishing sol_teker_hiz: speed={sol_msg}')
+        self.get_logger().info(f'Publishing sol_teker_hiz: speed={address_book_msg.sol_teker_hiz}')
         self.linear_actuator_publisher.publish(address_book_msg)
-        self.get_logger().info(f'Publishing actuator: {aktuator}')
-
+        self.get_logger().info(f'Publishing actuator: {address_book_msg.linear_actuator}')
 
 def main(args=None):
     rclpy.init(args=args)
